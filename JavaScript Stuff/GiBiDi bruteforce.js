@@ -1,3 +1,4 @@
+// WARNING: I haven't tested this, u should only use this to make your own bruteforce / for educational purposes. Use it at your own risk.
 let subghz = require("subghz");
 let storage = require("storage");
 let dialog = require("dialog");
@@ -5,7 +6,6 @@ let dialog = require("dialog");
 // Frequency for Gibidi remote (433.92 MHz)
 let frequency = 433920000;
 
-// Configure Sub-GHz module
 subghz.setup();
 subghz.setIdle();
 subghz.setFrequency(frequency);
